@@ -1,0 +1,42 @@
+body {
+    font-family: 'Tahoma', sans-serif;
+    text-align: center;
+    padding: 40px;
+    background-color: #d0f0fd; /* أزرق فاتح مبهج */
+}
+
+h1 {
+    color: #034f84;
+}
+
+input {
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #034f84;
+}
+
+button {
+    padding: 8px 12px;
+    margin: 5px;
+    background-color: #03a9f4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0288d1;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+#schedule {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #034f84;
+}
