@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منظم وقت الطلاب الذكي</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>منظم وقت الطلاب الذكي</h1>
+    <p>أضف مهامك اليومية واحصل على جدول منظم ونصائح لتحسين أداءك!</p>
+
+    <div id="task-input">
+        <input type="text" id="task-name" placeholder="اسم المهمة">
+        <input type="number" id="task-duration" placeholder="المدة بالدقائق">
+        <button onclick="addTask()">إضافة المهمة</button>
+    </div>
+
+    <h2>قائمة المهام:</h2>
+    <ul id="task-list"></ul>
+
+    <button onclick="showSchedule()">عرض الجدول اليومي</button>
+    <div id="schedule"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
